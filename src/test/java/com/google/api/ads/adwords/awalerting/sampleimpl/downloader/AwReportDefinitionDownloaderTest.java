@@ -20,7 +20,7 @@ import static org.mockito.Mockito.verify;
 
 import com.google.api.ads.adwords.awalerting.AlertProcessingException;
 import com.google.api.ads.adwords.awalerting.util.TestEntitiesGenerator;
-import com.google.api.ads.adwords.jaxws.v201705.cm.ReportDefinitionReportType;
+import com.google.api.ads.adwords.jaxws.v201708.cm.ReportDefinitionReportType;
 import com.google.api.ads.adwords.lib.client.AdWordsSession;
 import com.google.api.ads.common.lib.exception.ValidationException;
 import java.util.HashMap;
