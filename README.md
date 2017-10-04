@@ -4,7 +4,7 @@
 
 Alerting Framework for AdWords is an open source Java framework for large
 scale AdWords API alerting. It's based on the [Java AdWords API client
-library] (https://github.com/googleads/googleads-java-lib). This framework
+library](https://github.com/googleads/googleads-java-lib). This framework
 is capable of downloading AdWords report data and combining with other
 data feeds, and processing them according to specified alert rules and
 alert actions in the configuration. You can use our sample alerts to
