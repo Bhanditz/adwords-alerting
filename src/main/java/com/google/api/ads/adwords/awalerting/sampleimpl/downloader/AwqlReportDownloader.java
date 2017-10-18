@@ -19,7 +19,7 @@ import com.google.api.ads.adwords.awalerting.AlertReportDownloader;
 import com.google.api.ads.adwords.awalerting.report.AwqlReportQuery;
 import com.google.api.ads.adwords.awalerting.report.ReportData;
 import com.google.api.ads.adwords.awalerting.report.ReportDataLoader;
-import com.google.api.ads.adwords.jaxws.v201708.cm.ReportDefinitionReportType;
+import com.google.api.ads.adwords.jaxws.v201710.cm.ReportDefinitionReportType;
 import com.google.api.ads.adwords.lib.client.AdWordsSession.ImmutableAdWordsSession;
 import com.google.api.ads.common.lib.exception.ValidationException;
 import com.google.common.base.Joiner;
@@ -92,7 +92,7 @@ public class AwqlReportDownloader implements AlertReportDownloader {
       session = buildSessionForCid(protoSession, null);
     } catch (ValidationException e) {
       throw new AlertProcessingException(
-          "Failed to create valid adwords session for report defintion downloader.", e);
+          "Failed to create valid adwords session for report definition downloader.", e);
     }
 
     AwReportDefinitionDownloader reportDefinitionDownloader =

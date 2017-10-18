@@ -15,7 +15,7 @@
 package com.google.api.ads.adwords.awalerting.report;
 
 import au.com.bytecode.opencsv.CSVReader;
-import com.google.api.ads.adwords.jaxws.v201708.cm.ReportDefinitionReportType;
+import com.google.api.ads.adwords.jaxws.v201710.cm.ReportDefinitionReportType;
 import com.google.common.base.Preconditions;
 import java.io.IOException;
 import java.io.InputStream;
