@@ -16,10 +16,10 @@ package com.google.api.ads.adwords.awalerting.sampleimpl.downloader;
 
 import com.google.api.ads.adwords.awalerting.AlertProcessingException;
 import com.google.api.ads.adwords.awalerting.util.AdWordsServicesUtil;
-import com.google.api.ads.adwords.jaxws.v201710.cm.ApiException_Exception;
-import com.google.api.ads.adwords.jaxws.v201710.cm.ReportDefinitionField;
-import com.google.api.ads.adwords.jaxws.v201710.cm.ReportDefinitionReportType;
-import com.google.api.ads.adwords.jaxws.v201710.cm.ReportDefinitionServiceInterface;
+import com.google.api.ads.adwords.jaxws.v201802.cm.ApiException_Exception;
+import com.google.api.ads.adwords.jaxws.v201802.cm.ReportDefinitionField;
+import com.google.api.ads.adwords.jaxws.v201802.cm.ReportDefinitionReportType;
+import com.google.api.ads.adwords.jaxws.v201802.cm.ReportDefinitionServiceInterface;
 import com.google.api.ads.adwords.lib.client.AdWordsSession;
 import com.google.common.annotations.VisibleForTesting;
 import java.util.HashMap;
