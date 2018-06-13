@@ -18,7 +18,7 @@ import com.google.api.ads.adwords.awalerting.AlertReportDownloader;
 import com.google.api.ads.adwords.awalerting.report.ReportData;
 import com.google.api.ads.adwords.awalerting.util.DateRange;
 import com.google.api.ads.adwords.awalerting.util.JdbcUtil;
-import com.google.api.ads.adwords.jaxws.v201802.cm.ReportDefinitionReportType;
+import com.google.api.ads.adwords.jaxws.v201806.cm.ReportDefinitionReportType;
 import com.google.api.ads.adwords.lib.client.AdWordsSession.ImmutableAdWordsSession;
 import com.google.common.base.Joiner;
 import com.google.common.base.Preconditions;
