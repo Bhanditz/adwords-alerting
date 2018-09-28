@@ -1,5 +1,24 @@
 # Alerting Framework for AdWords
 
+## Deprecation Notice
+
+Due to low activity in the Alerting Framework for AdWords project, we've decided
+to deprecate it on September 28, 2018. There will not be any updates for AdWords
+API version migrations or issue tracking after this date. Please clone or fork
+this repository and migrate to the latest AdWords API version if you intend to
+continue using the code. This repository will be removed on or after 12th January 2019.
+
+We encourage you to own and maintain this project. Please fork or clone the
+repository and follow the [Google Ads Developer Blog](https://ads-developers.googleblog.com/)
+for notifications of upcoming API migrations.
+
+Your feedback is valuable to us in shaping our products. If you have comments or
+suggestions, please raise these on the project’s issue page.
+
+All the best for your future ads integrations.
+
+Google Ads team
+
 ## Overview
 
 Alerting Framework for AdWords is an open source Java framework for large

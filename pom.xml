@@ -4,14 +4,14 @@
 
   <groupId>com.google.api-ads</groupId>
   <artifactId>aw-alerting</artifactId>
-  <version>0.6.0</version>
+  <version>0.7.0</version>
   <packaging>jar</packaging>
 
   <name>aw-alerting</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <com.google.api-ads.version>3.15.0</com.google.api-ads.version>
+    <com.google.api-ads.version>4.1.0</com.google.api-ads.version>
     <springframework.version>3.2.2.RELEASE</springframework.version>
   </properties>
 
@@ -90,8 +90,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.7.0</version>
         <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
     </plugins>
